@@ -1,0 +1,198 @@
+body{
+    margin: 0px;
+}
+
+.header {
+    background-color:white;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    margin: auto;
+    width: 960px;
+    height: 80px;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    margin-right: auto;
+    vertical-align: middle;
+    line-height: 80px;
+}
+
+.m1, .m2, .m3 {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 80px;
+    vertical-align: middle;
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+}
+
+.divider1 {
+    background-color: #888888;
+    width: 100%;
+    height: 2px;
+}
+
+.mainbody {
+    background-color: rgba(211, 211, 211, 0.884);
+    padding: 50px 50px 100px 50px;
+}
+
+.aboutme{
+    background-color: white;
+    color: #888888;
+    margin: auto;
+    width: 919px;
+    overflow: auto;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #888888;
+      /* TOTAL WIDTH OF ABOUT ME SECTION IS 960PX, WIDTH 919 + BORDER 1PX + BOTH PADDINGS L+R OF 20PX */
+
+
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+img.indexpage {
+float: left;
+margin: 20px;
+}
+
+.divider2 {
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 10px;
+}
+.footer {
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 80px;
+    
+}
+
+/* DIVISION FOR CONTACTS PAGE STYLE */
+/* DIVISION FOR CONTACTS PAGE STYLE */
+/* DIVISION FOR CONTACTS PAGE STYLE */
+
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 90px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #4aaaa5;
+    background-color: #4aaaa5;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*  STYLE TO MAKE VISITED LINKS HAVE THE ORIGINAL COLOR*/
+a.menulink:visited {
+color: #888888
+}
+
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+.centeredtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+
+}
+
+.gridcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 980px) {
+
+    .aboutme{
+        width: 600px;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .aboutme{
+        width: 500px;
+        
+    }
+    .navbar{
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .aboutme{
+        width: 400px;
+        height: fit-content;
+        
+    }
+    .navbar{
+        width: 500px;
+    }
+
+    .gridcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+
+
+    
+        
+
+    
+
+    
+
+}
